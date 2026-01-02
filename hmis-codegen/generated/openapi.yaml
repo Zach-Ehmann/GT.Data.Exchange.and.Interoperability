@@ -984,121 +984,160 @@ components:
           type: string
           description: Enrollment Id
           maxLength: 32
+          x-semantic-uri: http://hmis.hud.gov/ontology#hasEnrollmentID
+          x-hud-data-element: "5.06.1"
         PersonalID:
           type: string
           description: Personal Id
           maxLength: 32
+          x-hud-data-element: "5.08"
         ExitDate:
           type: string
           format: date
           x-semantic-uri: http://hmis.hud.gov/ontology#hasExitDate
+          x-hud-data-element: "3.11.1"
         Destination:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasDestination
+          x-hud-data-element: "3.12.1"
         DestinationSubsidyType:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasDestinationSubsidyType
+          x-hud-data-element: "3.12.A"
         OtherDestination:
           type: string
           maxLength: 50
           x-semantic-uri: http://hmis.hud.gov/ontology#hasOtherDestination
+          x-hud-data-element: "3.12.B"
         HousingAssessment:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasHousingAssessment
+          x-hud-data-element: "W5.1"
         SubsidyInformation:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasSubsidyInformation
+          x-hud-data-element: "W5.AB"
         ProjectCompletionStatus:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasProjectCompletionStatus
+          x-hud-data-element: "R17.1"
         EarlyExitReason:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasEarlyExitReason
+          x-hud-data-element: "R17.A"
         ExchangeForSex:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasExchangeForSex
+          x-hud-data-element: "R15.1"
         ExchangeForSexPastThreeMonths:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasExchangeForSexPastThreeMonths
+          x-hud-data-element: "R15.A"
         CountOfExchangeForSex:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasCountOfExchangeForSex
+          x-hud-data-element: "R15.B"
         AskedOrForcedToExchangeForSex:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasAskedOrForcedToExchangeForSex
+          x-hud-data-element: "R15.C"
         AskedOrForcedToExchangeForSexPastThreeMonths:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasAskedOrForcedToExchangeForSexPastThreeMonths
+          x-hud-data-element: "R15.D"
         WorkplaceViolenceThreats:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasWorkplaceViolenceThreats
+          x-hud-data-element: "R16.1"
         WorkplacePromiseDifference:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasWorkplacePromiseDifference
+          x-hud-data-element: "R16.2"
         CoercedToContinueWork:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasCoercedToContinueWork
+          x-hud-data-element: "R16.A"
         LaborExploitPastThreeMonths:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasLaborExploitPastThreeMonths
+          x-hud-data-element: "R16.B"
         CounselingReceived:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasCounselingReceived
+          x-hud-data-element: "R18.1"
         IndividualCounseling:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasIndividualCounseling
+          x-hud-data-element: "R18.A"
         FamilyCounseling:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasFamilyCounseling
+          x-hud-data-element: "R18.A"
         GroupCounseling:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasGroupCounseling
+          x-hud-data-element: "R18.A"
         SessionCountAtExit:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasSessionCountAtExit
+          x-hud-data-element: "R18.B"
         PostExitCounselingPlan:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasPostExitCounselingPlan
+          x-hud-data-element: "R18.3"
         SessionsInPlan:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasSessionsInPlan
+          x-hud-data-element: "R18.2"
         DestinationSafeClient:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasDestinationSafeClient
+          x-hud-data-element: "R19.1"
         DestinationSafeWorker:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasDestinationSafeWorker
+          x-hud-data-element: "R19.2"
         PosAdultConnections:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasPosAdultConnections
+          x-hud-data-element: "R19.3"
         PosPeerConnections:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasPosPeerConnections
+          x-hud-data-element: "R19.4"
         PosCommunityConnections:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasPosCommunityConnections
+          x-hud-data-element: "R19.5"
         AftercareDate:
           type: string
           format: date
           x-semantic-uri: http://hmis.hud.gov/ontology#hasAftercareDate
+          x-hud-data-element: "R20.1"
         AftercareProvided:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasAftercareProvided
+          x-hud-data-element: "R20.2"
         EmailSocialMedia:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasEmailSocialMedia
+          x-hud-data-element: "R20.A"
         Telephone:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasTelephone
+          x-hud-data-element: "R20.A"
         InPersonIndividual:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasInPersonIndividual
+          x-hud-data-element: "R20.A"
         InPersonGroup:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasInPersonGroup
+          x-hud-data-element: "R20.A"
         CmExitReason:
           type: integer
           x-semantic-uri: http://hmis.hud.gov/ontology#hasCmExitReason
+          x-hud-data-element: "V9.1"
     incomeBenefitsPrimaryKey:
       type: object
       description: Unique identifier for IncomeBenefits resource
@@ -2302,6 +2341,8 @@ paths:
       
       
       
+      
+      
       x-effects:
         - effect: AuthorizationCheck
           handler: hmis:checkSearchPermission
@@ -2331,6 +2372,14 @@ paths:
         Validates data quality requirements per HUD Data Standards. 
         Returns the complete client record including system-generated PersonalID.
 
+      
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/clientBase'
       
       
       
@@ -2365,6 +2414,21 @@ paths:
         System automatically updates DateUpdated and UserID metadata.
         Validates data quality requirements per HUD Data Standards.
 
+      
+      parameters:
+        - name: PersonalID
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the client to update
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/clientBase'
       
       
       
@@ -2408,6 +2472,27 @@ paths:
         Useful for project-level reporting and case management.
 
       
+      parameters:
+        - name: ProjectID
+          in: path
+          required: false
+          schema:
+            type: string
+          description: Unique identifier of the project
+        - name: StartDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with EntryDate on or after this date
+        - name: ExitDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with EntryDate on or before this date
+      
+      
       
       
       x-effects:
@@ -2446,6 +2531,33 @@ paths:
         Useful for case management, coordinated entry, and longitudinal analysis.
         Supports filtering by date range and enrollment status.
 
+      
+      parameters:
+        - name: PersonalID
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the client
+        - name: projectID
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Unique identifier of the project
+        - name: entryDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with EntryDate on or after this date
+        - name: exitDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with EntryDate on or before this date
+      
       
       
       
@@ -2490,6 +2602,39 @@ paths:
         Useful for HIC reporting, system planning, and resource mapping.
 
       
+      parameters:
+        - name: Funder
+          in: query
+          required: false
+          schema:
+            type: integer
+          description: Filter by funding source
+        - name: ProjectType
+          in: query
+          required: false
+          schema:
+            type: integer
+          description: Filter by project type
+        - name: CocCode
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by CoC code
+        - name: OperatingStartDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter projects operating on or after this date
+        - name: OperatingEndDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter projects operating on or before this date
+      
+      
       
       
       x-effects:
@@ -2528,6 +2673,33 @@ paths:
         For enrollment-level detail, use /client/{PersonalID}/enrollments.
 
       
+      parameters:
+        - name: Funder
+          in: query
+          required: false
+          schema:
+            type: integer
+          description: Filter by project funding source
+        - name: ProjectType
+          in: query
+          required: false
+          schema:
+            type: integer
+          description: Filter by project type
+        - name: EntryDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with EntryDate on or after this date
+        - name: ExitDate
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter enrollments with ExitDate on or before this date
+      
+      
       
       
       x-effects:
@@ -2556,6 +2728,43 @@ paths:
       description: |
         Returns the entire CSV specifications based on the parameters provided.
 
+      
+      parameters:
+        - name: EntryDate
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: ExitDate
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: PersonalID
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Unique identifier of the client
+        - name: changedSince
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Start date of change window to check
+        - name: changedUntil
+          in: query
+          required: false
+          schema:
+            type: string
+          description: End date of change window to check
+        - name: HMISMetaDataFilter
+          in: query
+          required: false
+          schema:
+            type: array
+          description: Restrict to specific change type or UserID
+      
       
       
       
